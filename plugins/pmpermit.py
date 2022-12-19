@@ -69,12 +69,15 @@ LASTMSG = {}
 WARN_MSGS = {}
 U_WARNS = {}
 PMPIC = udB.get_key("PMPIC")
-LOG_CHANNEL = udB.get_key("LOG_CHANNEL")
+LOG_CHANNEL = udB.get_key("LOG_CHANNEL")n
 UND = get_string("pmperm_1")
 UNS = get_string("pmperm_2")
 NO_REPLY = get_string("pmperm_3")
 
-UNAPPROVED_MSG = ""
+UNAPPROVED_MSG = "Jual akun telegram & WhatsApp, add member & followers murah dan trusted\n\n"
+                 "Channel : @Jual_Nokos_Telegram\n"
+                 "Testimoni : @testinokosindostore\n\n"
+                 "Order Chat  : @indonokos_store"
 if udB.get_key("PM_TEXT"):
     UNAPPROVED_MSG = (
         ""
