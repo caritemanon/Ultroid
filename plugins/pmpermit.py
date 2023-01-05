@@ -77,10 +77,7 @@ NO_REPLY = get_string("pmperm_3")
 UNAPPROVED_MSG = ""
 if udB.get_key("PM_TEXT"):
     UNAPPROVED_MSG = (
-        "Jual akun telegram & WhatsApp, add member & followers murah dan trusted\n\n"
-                 "Channel : @Jual_Nokos_Telegram\n"
-                 "Testimoni : @testinokosindostore\n\n"
-                 "Order Chat  : @indonokos_store"
+        ""
         + udB.get_key("PM_TEXT")
         + ""
     )
